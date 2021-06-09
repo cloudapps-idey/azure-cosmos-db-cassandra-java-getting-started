@@ -1,1 +1,2 @@
-S2I_SOURCE_DEPLOYMENTS_FILTER=*-runner.jar lib
+
+JAVA_MAIN_CLASS=com.azure.cosmosdb.cassandra.examples.UserProfile
