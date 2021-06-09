@@ -46,6 +46,12 @@
                     </descriptorRefs>
                     <finalName>cosmosdb-cassandra-examples</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
+                    <resources>
+                        <env>
+                          <JAVA_APP_JAR>/deployments/${project.artifactId}-${project.version}-exec.jar</JAVA_APP_JAR>
+                       </env>
+
+                    </resources>
                 </configuration>
                 <executions>
                     <execution>
