@@ -94,7 +94,7 @@ public class CassandraUtils {
 		 */
         
         cassandraHost = System.getenv("cassandra_host");
-        cassandraPort = Integer.parseInt(System.getenv("cassandra_port"));
+        cassandraPort = 10350;//System.getenv("cassandra_port");
         cassandraUsername = System.getenv("cassandra_username");
         cassandraPassword = System.getenv("cassandra_password");
         String ssl_keystore_file_path = System.getenv("ssl_keystore_file_path");
